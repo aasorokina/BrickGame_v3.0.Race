@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="static/styles.css">
+    <script src="static/game.js" type="module" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BrickGame v3.0</title>
+</head>
+
+<body>
+    <h1>BrickGame v3.0</h1>
+    <div id="game">
+        <div id="left-panel">
+            <div id="games-list"></div>
+        </div>
+        <div id="game-field"></div>
+        <div id="right-panel" class="dashboard-text">
+            <table>
+                <tbody>
+                    <tr>
+                        <td>SCORE:</td>
+                        <td id="score-value">0</td>
+                    </tr>
+                    <tr>
+                        <td>HIGH SCORE:</td>
+                        <td id="high-score-value">0</td>
+                    </tr>
+                    <tr>
+                        <td>LEVEL:</td>
+                        <td id="level-value">0</td>
+                    </tr>
+                    <tr>
+                        <td>SPEED:</td>
+                        <td id="speed-value">0</td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="label">NEXT:</div>
+            <div id="next-field"></div>
+            <div class="label">CONTROLS:</div>
+            <div class="text">← → ↑ ↓ - move</div>
+            <div class="text">SPACE - action</div>
+            <div class="text">P - pause</div>
+            <div class="text">Q - exit</div>
+        </div>
+    </div>
+</body>
+
+</html>

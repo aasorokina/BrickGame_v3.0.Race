@@ -1,0 +1,9 @@
+curl -X GET http://localhost:8080/api/games
+
+curl -X GET http://localhost:8080/api/state
+
+curl -X POST http://localhost:8080/api/games/3
+
+curl -X POST http://localhost:8080/api/actions \
+  -H "Content-Type: application/json" \
+  -d '{"action_id": 2, "hold": false}'

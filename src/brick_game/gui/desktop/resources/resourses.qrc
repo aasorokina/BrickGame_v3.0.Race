@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/img">
+        <file>icon.png</file>
+        <file>snake.png</file>
+        <file>tetris.png</file>
+        <file>race.png</file>
+        <file>lose.png</file>
+        <file>win.png</file>
+    </qresource>
+</RCC>

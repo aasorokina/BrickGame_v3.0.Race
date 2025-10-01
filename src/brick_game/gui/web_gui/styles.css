@@ -1,0 +1,138 @@
+html {
+    min-height: 100vh;
+    height: 100%;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #90c8a7;
+}
+
+#game {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+#games-list {
+    width: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    background-color: #72b98f;
+    color: black;
+    border-color: black;
+    border-radius: 0px;
+    padding: 15px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 10px;
+    width: 150px;
+}
+
+button:hover {
+    background-color: #459f69;
+}
+
+button.active {
+    background-color: #317256;
+}
+
+#game-field {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    gap: var(--game-field-gap);
+    background: var(--game-field-background);
+    padding: var(--game-field-gap);
+    width: calc((var(--tile-size) + var(--game-field-gap)) * var(--game-field-width) - var(--game-field-gap));
+}
+
+#next-field {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--next-field-gap);
+    background: var(--next-field-background);
+    padding: var(--next-field-gap);
+    width: calc((var(--tile-size) + var(--next-field-gap)) * var(--next-field-width) - var(--next-field-gap));
+    height: min-content;
+}
+
+.tile {
+    width: var(--tile-size);
+    height: var(--tile-size);
+    background: var(--tile-color);
+}
+
+.active {
+    background: var(--tile-active-color);
+}
+
+#right-panel {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding: 10px;
+}
+
+#left-panel {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+#right-panel .label {
+    font-size: 14px !important;
+    padding: 10px;
+}
+
+#notification {
+    height: 150px;
+    font-size: 14px;
+    padding: 4px;
+    text-align: center;
+    white-space: pre-line;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#right-panel .text {
+    font-size: 14px !important;
+    padding: 4px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    overflow: hidden;
+    background-color: #72b98f;
+}
+
+tr {
+    font-size: 14px;
+}
+
+th {
+    color: white;
+    padding: 10px;
+    text-align: left;
+}
+
+td {
+    border: 2px solid black;
+    padding: 8px;
+    text-align: left;
+}
