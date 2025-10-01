@@ -10,6 +10,7 @@ The implementation of the Race game in the Go programming language consists of s
 
 Race game library also can be directly connected to the console interface from BrickGame v1.0 and the desktop interface from BrickGame v2.0, both interfaces fully support new game. Games from the BrickGame v1.0 and BrickGame v2.0 projects are accessible via the REST API server and web interface.
 
+Web interface:
 ![web](images/brick_game_web.gif)  
 
 ## Features
