@@ -4,7 +4,7 @@ Implementation of the Race game in the Go programming language - game library, R
 
 ## Project Description
 
-Games and interfaces from the BrickGame v1.0 and BrickGame v2.0 projects have been transferred to this project.
+Games and interfaces from the [BrickGame v1.0](https://github.com/aasorokina/BrickGame_v1.0.Tetris) and [BrickGame v2.0](https://github.com/aasorokina/BrickGame_v2.0.Snake) projects have been transferred to this project.
 
 The implementation of the Race game in the Go programming language consists of several components: a library responsible for the game logic (which implemented using a finite-state machine), a web interface, server providing REST API for accessing games via the network and client library that encapsulates the interaction with the server for console and desktop interfaces.
 
